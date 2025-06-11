@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@genkit-ai/core": "^1.12.0",
+    "@genkit-ai/dotprompt": "^0.9.12",
+    "@genkit-ai/flow": "^0.5.17",
+    "@genkit-ai/google-cloud": "^1.12.0",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-dropdown-menu": "^2.1.15",
     "@radix-ui/react-slot": "^1.2.3",
