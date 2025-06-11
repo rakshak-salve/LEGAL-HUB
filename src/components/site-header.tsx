@@ -3,6 +3,7 @@ import Link from "next/link";
 import { LawIcon } from "lucide-react";
 
 import { MainNav } from "@/components/main-nav";
+import { MobileNav } from "@/components/mobile-nav";
 
 export function SiteHeader() {
   return (
@@ -20,7 +21,8 @@ export function SiteHeader() {
 
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
-            {/* Dark mode toggle and mobile nav button will go here */}
+            {/* Dark mode toggle will go here */}
+            <MobileNav />
           </nav>
         </div>
       </div>
