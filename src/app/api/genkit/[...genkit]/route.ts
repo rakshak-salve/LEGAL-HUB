@@ -2,19 +2,18 @@ import { configureGenkit } from "@genkit-ai/core";
 import { defineFlow, generate } from "@genkit-ai/flow";
 import { geminiPro } from "@genkit-ai/google-cloud";
 
-// This is a placeholder for your actual Genkit flows and configuration.
-// It's exposed as a Next.js API route via [...genkit] catch-all route.
+// Ensure you have GOOGLE_APPLICATION_CREDENTIALS and GOOGLE_CLOUD_PROJECT_ID
+// set in your .env.local file.
 
 export const POST = configureGenkit({
   // Configure your models (e.g., Gemini Pro)
   plugins: [
     geminiPro(), // Initialize Gemini Pro model
   ],
-  // You might configure project ID, region here if not using env vars
-  // googleCloud: {
-  //   projectId: process.env.GOOGLE_CLOUD_PROJECT_ID,
-  //   region: 'us-central1',
-  // },
+  googleCloud: {
+    projectId: process.env.GOOGLE_CLOUD_PROJECT_ID,
+    region: 'us-central1',
+  },
   logLevel: 'debug', // Set log level for debugging
   // For local development, enable CORS. In production, restrict to your domain.
   enableTracingAndMetrics: true, // Enable tracing for debugging/monitoring
