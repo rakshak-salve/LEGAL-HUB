@@ -1,8 +1,10 @@
 # Legal Hub
 
-## Getting Started
+Welcome to Legal Hub! This project is your gateway to exploring and understanding Indian legal information in a modern, user-friendly way.
 
-First, run the development server:
+## 🚀 Getting Started
+
+To start the development server, run one of the following commands in your terminal:
 
 ```bash
 npm run dev
@@ -14,23 +16,26 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the server is running, open [http://localhost:3000](http://localhost:3000) in your browser to see your app in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can begin customizing your site by editing `src/app/page.tsx`. Changes will update automatically as you save.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- Built with [Next.js](https://nextjs.org) for fast, scalable web apps
+- Styled using Tailwind CSS for rapid UI development
+- Organized in a modern `src/` directory structure
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Learn More
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚢 Deploy
 
-## Deploy on Vercel
+Deploy your app easily on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) or your preferred platform.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Legal Hub is designed for students, professionals, and anyone interested in Indian law. Contributions and feedback are always welcome!
