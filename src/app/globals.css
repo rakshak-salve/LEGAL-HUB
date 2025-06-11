@@ -117,8 +117,56 @@
 }
 
 @layer base {
+  :root {
+    /* Custom Colors for Light Mode (Based on your UI images) */
+    --background: 0 0% 100%; /* White */
+    --foreground: 222.2 47.4% 11.2%; /* Dark text */
+    --muted: 210 40% 96.1%; /* Light gray */
+    --muted-foreground: 215.4 16.3% 46.9%; /* Muted text */
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+    --primary: 220 70% 30%; /* Your distinct blue/purple */
+    --primary-foreground: 210 40% 98%; /* White text on primary */
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 94.5% 48.5%;
+    --destructive-foreground: 210 40% 98%;
+    --ring: 222.2 47.4% 11.2%;
+    --radius: 0.5rem; /* Default border-radius */
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+    --muted: 223 47% 11%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --popover: 224 71% 4%;
+    --popover-foreground: 213 31% 91%;
+    --border: 216 12.2% 83.9%;
+    --input: 216 12.2% 83.9%;
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 218 50% 10%;
+    --secondary-foreground: 210 40% 98%;
+    --accent: 218 50% 10%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
