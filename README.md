@@ -32,9 +32,6 @@ You can begin customizing your site by editing `src/app/page.tsx`. Changes will 
 - [Learn Next.js](https://nextjs.org/learn)
 - [Tailwind CSS Docs](https://tailwindcss.com/docs)
 
-## 🚢 Deploy
-
-Deploy your app easily on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) or your preferred platform.
 
 ---
 
