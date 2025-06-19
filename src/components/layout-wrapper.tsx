@@ -1,7 +1,7 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { ReactNode } from "react";
-import SiteFooter from "./SiteFooter";
-import SiteHeader from "./SiteHeader";
+import SiteFooter from "./site-footer";
+import { SiteHeader } from "./site-header";
 
 interface LayoutWrapperProps {
   children: ReactNode;

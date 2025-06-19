@@ -4,7 +4,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { MenuIcon, LawIcon } from "lucide-react";
+import { MenuIcon, Gavel } from "lucide-react";
 
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
@@ -28,7 +28,7 @@ export function MobileNav() {
       </SheetTrigger>
       <SheetContent side="left" className="pr-0">
         <Link href="/" className="flex items-center space-x-2" onClick={() => setOpen(false)}>
-          <LawIcon className="h-6 w-6 text-primary" />
+          <Gavel className="h-6 w-6 text-primary" />
           <span className="font-bold text-lg font-headline">Legal Hub</span>
         </Link>
         <nav className="flex flex-col gap-6 py-6">

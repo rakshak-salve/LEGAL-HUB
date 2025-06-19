@@ -5,12 +5,6 @@ import { Send } from "lucide-react"
 import { ChatMessage } from "@/components/chat-message"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Metadata } from "next"
-
-export const metadata: Metadata = {
-  title: "Legal Hub - AI Chatbot",
-  description: "Get instant answers to your legal queries with our AI-powered chatbot.",
-}
 
 export default function ChatbotPage() {
   const [messages, setMessages] = React.useState<{ role: "user" | "assistant"; content: string }[]>([])
